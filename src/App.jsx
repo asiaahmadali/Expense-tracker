@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 import SignUp from "./Auth/SignUp";
-import Login from "./Auth/LogIn";
+import Login from "./Auth/Login";
 import ExpenseTracker from "./components/expense-tracker";
 import UpdateRecord from "./components/Update";
 import { ContextProvider } from "./components/context/Context";
