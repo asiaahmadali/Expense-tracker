@@ -23,7 +23,7 @@ function ExpenseTracker() {
     >
       <Header />
       <ContextProvider>
-        <div className="bg-gradient-to-r from-purple-300 via-purple-800 to-purple-300 m-auto align-center w-[290px] md:w-[400px] p-4 my-5 rounded-lg shadow-2xl">
+        <div className="bg-gradient-to-r from-purple-300 via-purple-800 to-purple-300 m-auto align-center w-[300px] md:w-[400px] p-4 my-5 rounded-lg shadow-2xl">
           <h1 className="text-center my-3 font-bold text-white  text-2xl md:text-3xl drop-shadow-lg">
             Expense Tracker 💸
           </h1>
