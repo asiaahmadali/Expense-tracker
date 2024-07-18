@@ -80,7 +80,7 @@ function ExpenseList() {
   };
 
   return (
-    <div className="w-[270px] md:w-[400px] p-5 bg-gradient-to-r from-purple-500 via-blue-800 to-purple-300 text-white m-auto rounded-lg shadow-lg my-5">
+    <div className="w-[290px] md:w-[400px] p-5 bg-gradient-to-r from-purple-500 via-blue-800 to-purple-300 text-white m-auto rounded-lg shadow-lg my-5">
       <h1 className="text-center font-medium text-2xl md:text-3xl mb-4 drop-shadow-md">
         Transactions
       </h1>
