@@ -40,6 +40,9 @@ function SignUp() {
       const result = await signInWithPopup(Auth, Provider);
 
       const user = result.user;
+      if (!user) {
+        throw new Error("No user information received from Google.");
+      }
       await setDoc(doc(Db, "users", user.uid), {
         name: user.displayName,
         email: user.email,
@@ -107,7 +110,7 @@ function SignUp() {
                 Login
               </Link>
             </p>
-            <p className="mt-2 text-center text-purple-700">OR</p>
+            {/* <p className="mt-2 text-center text-purple-700">OR</p>
             <div className="mt-2">
               <button
                 type="button"
@@ -116,7 +119,7 @@ function SignUp() {
               >
                 Login with Google
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
